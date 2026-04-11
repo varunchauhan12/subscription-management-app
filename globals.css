@@ -17,6 +17,14 @@
     --color-destructive: #dc2626;
     --color-subscription: #8fd1bd;
 
+    --font-rubik: Rubik-Regular;
+    --font-rubik-light: Rubik-Light;
+    --font-rubik-medium: Rubik-Medium;
+    --font-rubik-semibold: Rubik-SemiBold;
+    --font-rubik-bold: Rubik-Bold;
+    --font-rubik-extrabold: Rubik-ExtraBold;
+
+
     --spacing-0: 0px;
     --spacing-1: 4px;
     --spacing-2: 8px;
@@ -37,12 +45,12 @@
     --spacing-24: 96px;
     --spacing-30: 120px;
 
-    --font-sans: sans-regular;
-    --font-sans-light: sans-light;
-    --font-sans-medium: sans-medium;
-    --font-sans-semibold: sans-semibold;
-    --font-sans-bold: sans-bold;
-    --font-sans-extrabold: sans-extrabold;
+    --font-sans: var(--font-rubik);
+    --font-sans-light: var(--font-rubik-light);
+    --font-sans-medium: var(--font-rubik-medium);
+    --font-sans-semibold: var(--font-rubik-semibold);
+    --font-sans-bold: var(--font-rubik-bold);
+    --font-sans-extrabold: var(--font-rubik-extrabold);
 }
 
 @layer components {
