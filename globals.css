@@ -75,7 +75,7 @@
     }
 
     .home-user {
-        @apply flex-row items-center;
+        @apply flex-row items-center gap-1;
     }
 
     .home-avatar {
@@ -87,7 +87,7 @@
     }
 
     .home-add-icon {
-        @apply size-12;
+        @apply size-8 ;
     }
 
     .home-balance-card {
